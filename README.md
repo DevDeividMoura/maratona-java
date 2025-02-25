@@ -17,18 +17,32 @@ maratona-java/
 ```
 
 ## 📚 Conteúdos
-### 🔹 Conceitos Iniciais
-✅ Estrutura básica de um código Java  
-✅ Diferença entre JVM, JDK e JRE  
-✅ Execução de um programa Java
 
-### 🔹 Organização do Código
-✅ Uso de pacotes (`package`)  
-✅ Convenção de nomenclatura baseada no domínio (`com.exemplo.projeto`)
+<details>
+  <summary>🔹 Conceitos Iniciais</summary>
 
-### 🔹 Comentários e Documentação
-✅ Tipos de comentários em Java (`//`, `/* */`, `/** */`)  
-✅ Uso do JavaDoc para documentação de classes e métodos
+      ✅ Estrutura básica de um código Java  
+      ✅ Diferença entre JVM, JDK e JRE  
+      ✅ Execução de um programa Java
+
+</details>
+
+<details>
+  <summary>🔹 Organização do Código</summary>
+
+      ✅ Uso de pacotes (`package`)  
+      ✅ Convenção de nomenclatura baseada no domínio (`com.exemplo.projeto`)
+
+</details>
+
+<details>
+  <summary>🔹 Comentários e Documentação</summary>
+
+      ✅ Tipos de comentários em Java (`//`, `/* */`, `/** */`)  
+      ✅ Uso do JavaDoc para documentação de classes e métodos
+
+</details>
+
 
 ## 🚀 Como Executar
 1. Clone este repositório:
