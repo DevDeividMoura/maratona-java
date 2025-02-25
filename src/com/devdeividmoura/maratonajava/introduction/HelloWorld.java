@@ -1,4 +1,4 @@
-package com.devdeividmoura.maratonajava.intro;
+package com.devdeividmoura.maratonajava.introduction;
 
 /**
  * Classe HelloWorld - Exemplo básico de um programa Java.
