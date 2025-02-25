@@ -10,10 +10,10 @@ Cada código possui um arquivo `.md` correspondente na pasta `docs/`, contendo e
 maratona-java/
 │── docs/                                              # Documentação e anotações organizadas por módulos
 │   ├── com.devdeividmoura.maratonajava.introduction/  # Conceitos iniciais
-│   │   ├── HelloWorld.md
+│   │   ├── Class01_HelloWorld.md
 │── src/                                               # Códigos-fonte organizados por módulos
 │   ├── com.devdeividmoura.maratonajava.introduction/  # Conceitos iniciais
-│   │   ├── HelloWorld.java
+│   │   ├── Class01_HelloWorld.java
 │── .gitignore                                         # Arquivos ignorados pelo Git
 │── README.md                                          # Documentação principal do repositório
 ```
@@ -27,9 +27,9 @@ maratona-java/
    
        <summary><b>
      <a 
-         href="https://github.com/DevDeividMoura/maratona-java/tree/main/docs/com.devdeividmoura.maratonajava.introduction/HelloWorld.md"
+         href="https://github.com/DevDeividMoura/maratona-java/tree/main/docs/com.devdeividmoura.maratonajava.introduction/Class01_HelloWorld.md"
      > 
-         📚 HelloWord.md 
+         📚 Class01_HelloWord.md 
      </a></b></summary>
    
       - <details>
@@ -68,8 +68,8 @@ maratona-java/
     ```
 2. Compile e execute um dos arquivos Java:
     ```sh
-    javac -d . com/devdeividmoura/maratonajava/intro/HelloWorld.java
-    java com.devdeividmoura.maratonajava.introduction.HelloWorld
+    javac -d . com/devdeividmoura/maratonajava/intro/Class01_HelloWorld.java
+    java com.devdeividmoura.maratonajava.introduction.Class01_HelloWorld
     ```
 
 ## ✨ Autor

@@ -89,7 +89,7 @@ package com.devdeividmoura.maratonajava.introduction;
  * @author DevDeividMoura
  * @version 1.0
  */
-public class HelloWorld {
+public class Class01_HelloWorld {
   /**
    * Método principal que executa o programa.
    * <p>
