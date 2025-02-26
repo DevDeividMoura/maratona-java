@@ -59,7 +59,7 @@ maratona-java/
    - <details>
        <summary><b>
      <a 
-         href="https://github.com/DevDeividMoura/maratona-java/tree/main/docs/com.devdeividmoura.maratonajava.introduction/Class02_HelloWorld.md"
+         href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava.introduction/Class02_PrimitiveTypes.md"
      > 
          📚 Class02_PrimitiveTypes.md 
      </a></b></summary>
