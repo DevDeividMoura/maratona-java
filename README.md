@@ -12,10 +12,12 @@ maratona-java/
 │   ├── com.devdeividmoura.maratonajava.introduction/  # Conceitos iniciais
 │   │   ├── Class01_HelloWorld.md
 │   │   ├── Class02_PrimitiveTypes.md
+│   │   ├── Class03_Operators.md
 │── src/                                               # Códigos-fonte organizados por módulos
 │   ├── com.devdeividmoura.maratonajava.introduction/  # Conceitos iniciais
 │   │   ├── Class01_HelloWorld.java
-│   │   ├── Class02_PrimitiveTypes.md
+│   │   ├── Class02_PrimitiveTypes.java
+│   │   ├── Class03_Operators.java
 │── .gitignore                                         # Arquivos ignorados pelo Git
 │── README.md                                          # Documentação principal do repositório
 ```
@@ -30,7 +32,7 @@ maratona-java/
      <a 
          href="https://github.com/DevDeividMoura/maratona-java/tree/main/docs/com.devdeividmoura.maratonajava.introduction/Class01_HelloWorld.md"
      > 
-         📚 Class01_HelloWord.md 
+         🌎 Class01_HelloWord.md 
      </a></b></summary>
    
       - <details>
@@ -61,7 +63,7 @@ maratona-java/
      <a 
          href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava.introduction/Class02_PrimitiveTypes.md"
      > 
-         📚 Class02_PrimitiveTypes.md 
+         🔢 Class02_PrimitiveTypes.md 
      </a></b></summary>
         
        - <details>
@@ -92,6 +94,43 @@ maratona-java/
            - ✅ Construção de uma string dinâmica com dados pessoais
          </details>
      </details>
+   - <details>
+          <summary><b>
+          <a href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava.introduction/Class03_Operators.md">
+             🧮 Class03_Operators.md 
+          </a></b></summary>
+
+      - <details>
+           <summary><b> ✅ Operadores Aritméticos </b></summary>
+
+           - `+`, `-`, `*`, `/` e `%` com exemplos práticos.
+        </details>
+
+      - <details>
+          <summary><b> ✅ Operadores Comparativos </b></summary>
+        
+          - `==`, `!=`, `<`, `>`, `<=`, `>=` e a diferença entre primitivos e objetos.
+        </details>
+
+      - <details>
+          <summary><b> ✅ Operadores Lógicos </b></summary>
+        
+          - `&&`, `||` e `!` aplicados em expressões condicionais.
+        </details>
+
+      - <details>
+          <summary><b> ✅ Operadores de Atribuição </b></summary>
+        
+          - `=`, `+=`, `-=`, `*=`, `/=`, `%=` e exemplos práticos.
+        </details>
+
+      - <details>
+          <summary><b> ✅ Operadores de Incremento e Decremento </b></summary>
+        
+          - `++` e `--`, incluindo pré e pós-incremento.
+        </details>
+     </details>
+
 
 </details>
 
@@ -108,4 +147,4 @@ maratona-java/
     ```
 
 ## ✨ Autor
-[Deivid Moura](https://github.com/DevDeividMoura) - Estudante de Java 🚀  
+[Deivid Moura](https://github.com/DevDeividMoura) - Desenvolvedor Back-end 🚀  
