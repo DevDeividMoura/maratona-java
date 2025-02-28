@@ -1,5 +1,5 @@
 ## 📌 Operadores
-**Data:** _26/02/2025_ - _27/02/2025_
+**Data:** _26/02/2025_ e _27/02/2025_  
 **Objetivo**: Compreender os operadores aritméticos, comparativos, lógicos, atribuição, incremento e decremento em Java.
 
 ### 📚 Conceitos Aprendidos
