@@ -14,12 +14,14 @@ maratona-java/
 │   │   ├── Topic02_PrimitiveTypes.md
 │   │   ├── Topic03_Operators.md
 │   │   ├── Topic04_ConditionalStructures.md
+│   │   ├── Topic05_Loops.md
 │── src/                                               # Códigos-fonte organizados por módulos
 │   ├── com.devdeividmoura.maratonajava.introduction/  # Conceitos iniciais
 │   │   ├── Topic01_HelloWorld.java
 │   │   ├── Topic02_PrimitiveTypes.java
 │   │   ├── Topic03_Operators.java
 │   │   ├── Topic04_ConditionalStructures.java
+│   │   ├── Topic05_Loops.java
 │── .gitignore                                         # Arquivos ignorados pelo Git
 │── README.md                                          # Documentação principal do repositório
 ```
@@ -88,13 +90,7 @@ maratona-java/
            - ✅ Tipo lógico (`boolean`)
            - ✅ Tipo caractere (`char`)
          </details>
-      
-       - <details>
-           <summary><b> ✅ Exercício Prático </b></summary>
-
-           - ✅ Declaração e impressão de variáveis
-           - ✅ Construção de uma string dinâmica com dados pessoais
-         </details>
+    
      </details>
    - <details>
           <summary><b>
@@ -132,7 +128,6 @@ maratona-java/
           - `++` e `--`, incluindo pré e pós-incremento.
         </details>
      </details>
-
    - <details>
         <summary><b>
         <a href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava.introduction/Topic04_ConditionalStructures.md">
@@ -161,14 +156,53 @@ maratona-java/
             - Sintaxe tradicional e versão simplificada disponível no Java 14+.
             - Exemplo de determinação do dia da semana.
           </details>
-        
-        - <details>
-            <summary><b> ✅ Exercícios Práticos </b></summary>
-        
-            - Cálculo de imposto baseado em faixas salariais.
-            - Identificação de dias úteis e fins de semana com `switch`.
-          </details>
-   </details>
+    
+     </details>
+   - <details>
+      <summary><b>
+      <a href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava.introduction/Topic05_Loops.md">
+         🔄 Topic05_Loops.md
+      </a></b></summary>
+
+      - <details>
+           <summary><b> ✅ Estrutura While </b></summary>
+      
+          - Executa um bloco de código enquanto a condição for verdadeira.
+          - Exemplo de contagem progressiva de 1 a 10.
+        </details>
+      
+      - <details>
+          <summary><b> ✅ Estrutura Do-While </b></summary>
+      
+          - Executa pelo menos uma vez antes de verificar a condição.
+          - Exemplo de contagem progressiva de 1 a 10.
+        </details>
+      
+      - <details>
+          <summary><b> ✅ Estrutura For </b></summary>
+      
+          - Estrutura de repetição com inicialização, condição e incremento.
+          - Exemplo de iteração de 0 a 9.
+        </details>
+
+     - <details>
+         <summary><b> ✅ Estrutura Foreach </b></summary>
+
+         - Estrutura de repetição que percorre diretamente os elementos de um array ou coleção.
+         - Exemplo de uso com um array de números inteiros.
+       </details>
+
+      - <details>
+          <summary><b> ✅ Uso de Break e Continue </b></summary>
+      
+          - Interrompe a execução do loop quando uma condição é atendida.
+          - Exemplo imprimindo apenas os primeiros 25 números.
+          - Pula a iteração atual e continua para a próxima.
+          - Exemplo ignorando múltiplos de 3 em um loop.
+        </details>
+
+     </details>
+
 
 
 
