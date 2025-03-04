@@ -83,6 +83,10 @@
     ```
   </details>
 
+### 💻 Implementação Prática
+- Você pode conferir o código completo neste arquivo:
+  - 🧮 [Topic03_Operators.java](https://github.com/DevDeividMoura/maratona-java/tree/main/docs/com.devdeividmoura.maratonajava.introduction/Topic03_Operators.md)
+
 ### 🔍 Observações
 - Sempre atente-se ao tipo de dado ao usar operadores matemáticos e relacionais.
 - O uso correto dos operadores lógicos é fundamental para evitar erros em expressões condicionais.

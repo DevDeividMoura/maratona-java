@@ -1,12 +1,12 @@
 package com.devdeividmoura.maratonajava.introduction;
 
 /**
- * Class Class02_PrimitiveTypes - Demonstration of primitive types usage in Java.
+ * Class Topic02_PrimitiveTypes - Demonstration of primitive types usage in Java.
  *
  * @author DevDeividMoura
  * @version 1.0
  */
-public class Class02_PrimitiveTypes {
+public class Topic02_PrimitiveTypes {
     public static void main(String[] args) {
         // Integer types
         byte smallNumber = 127;

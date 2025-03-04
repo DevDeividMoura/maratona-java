@@ -1,7 +1,7 @@
 package com.devdeividmoura.maratonajava.introduction;
 
 /**
- * Classe HelloWorld - Exemplo básico de um programa Java.
+ * Classe Topic01_HelloWorld - Exemplo básico de um programa Java.
  * <p>
  * Esta classe contém um método main que imprime "Hello, World!" no terminal.
  * </p>
@@ -9,7 +9,7 @@ package com.devdeividmoura.maratonajava.introduction;
  * @author DevDeividMoura
  * @version 1.0
  */
-public class Class01_HelloWorld {
+public class Topic01_HelloWorld {
 	/**
 	 * Método principal que executa o programa.
 	 * <p>

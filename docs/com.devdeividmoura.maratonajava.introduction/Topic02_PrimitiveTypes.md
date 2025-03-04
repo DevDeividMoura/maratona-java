@@ -73,37 +73,9 @@
       ```  
   </details>
 
-### 📝 Código do Exercício
-
-```java
-package com.devdeividmoura.maratonajava.introduction;
-
-/**
- * Class Class02_PrimitiveTypes - Demonstration of primitive types usage in Java.
- *
- * @author DevDeividMoura
- * @version 1.0
- */
-public class Class02_PrimitiveTypes {
-  public static void main(String[] args) {
-    String name = "Deivid";
-    String address = "Av Tiradentes, 367, Downtown";
-    double receivedSalary = 10780.80;
-    String salaryReceiptDate = "25/02/2025"; // dd/MM/yyyy
-    String report = "I, " + name + ", living at " + address +
-            ", confirm that I received the salary of " + receivedSalary +
-            " on " + salaryReceiptDate + ".";
-    
-    System.out.println("Report: " + report);
-  }
-}
-
-/*
-Output: 
-
-Report: I, Deivid, living at Av Tiradentes, 367, Downtown, confirm that I received the salary of 10780.8 on 25/02/2025.
- */
-```
+### 💻 Implementação Prática
+- Você pode conferir o código completo neste arquivo:
+  - 🔢 [Topic02_PrimitiveTypes.java](https://github.com/DevDeividMoura/maratona-java/tree/main/docs/com.devdeividmoura.maratonajava.introduction/Topic02_PrimitiveTypes.md)
 
 ### 🔍 Observações
 - As variáveis numéricas podem ter valores negativos ou positivos, exceto `char` e `boolean`.

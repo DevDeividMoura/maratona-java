@@ -1,12 +1,12 @@
 package com.devdeividmoura.maratonajava.introduction;
 
 /**
- * Class Class03_Operators - Demonstration of operators usage in Java.
+ * Class Topic03_Operators - Demonstration of operators usage in Java.
  *
  * @author DevDeividMoura
  * @version 1.0
  */
-public class Class03_Operators {
+public class Topic03_Operators {
     public static void main(String[] args) {
 
         int number7 = 7;

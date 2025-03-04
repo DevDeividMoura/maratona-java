@@ -10,14 +10,14 @@ Cada código possui um arquivo `.md` correspondente na pasta `docs/`, contendo e
 maratona-java/
 │── docs/                                              # Documentação e anotações organizadas por módulos
 │   ├── com.devdeividmoura.maratonajava.introduction/  # Conceitos iniciais
-│   │   ├── Class01_HelloWorld.md
-│   │   ├── Class02_PrimitiveTypes.md
-│   │   ├── Class03_Operators.md
+│   │   ├── Topic01_HelloWorld.md
+│   │   ├── Topic02_PrimitiveTypes.md
+│   │   ├── Topic03_Operators.md
 │── src/                                               # Códigos-fonte organizados por módulos
 │   ├── com.devdeividmoura.maratonajava.introduction/  # Conceitos iniciais
-│   │   ├── Class01_HelloWorld.java
-│   │   ├── Class02_PrimitiveTypes.java
-│   │   ├── Class03_Operators.java
+│   │   ├── Topic01_HelloWorld.java
+│   │   ├── Topic02_PrimitiveTypes.java
+│   │   ├── Topic03_Operators.java
 │── .gitignore                                         # Arquivos ignorados pelo Git
 │── README.md                                          # Documentação principal do repositório
 ```
@@ -30,9 +30,9 @@ maratona-java/
    - <details>
        <summary><b>
      <a 
-         href="https://github.com/DevDeividMoura/maratona-java/tree/main/docs/com.devdeividmoura.maratonajava.introduction/Class01_HelloWorld.md"
+         href="https://github.com/DevDeividMoura/maratona-java/tree/main/docs/com.devdeividmoura.maratonajava.introduction/Topic01_HelloWorld.md"
      > 
-         🌎 Class01_HelloWord.md 
+         🌎 Topic01_HelloWord.md 
      </a></b></summary>
    
       - <details>
@@ -61,9 +61,9 @@ maratona-java/
    - <details>
        <summary><b>
      <a 
-         href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava.introduction/Class02_PrimitiveTypes.md"
+         href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava.introduction/Topic02_PrimitiveTypes.md"
      > 
-         🔢 Class02_PrimitiveTypes.md 
+         🔢 Topic02_PrimitiveTypes.md 
      </a></b></summary>
         
        - <details>
@@ -96,8 +96,8 @@ maratona-java/
      </details>
    - <details>
           <summary><b>
-          <a href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava.introduction/Class03_Operators.md">
-             🧮 Class03_Operators.md 
+          <a href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava.introduction/Topic03_Operators.md">
+             🧮 Topic03_Operators.md 
           </a></b></summary>
 
       - <details>
@@ -142,8 +142,8 @@ maratona-java/
     ```
 2. Compile e execute um dos arquivos Java:
     ```sh
-    javac -d . com/devdeividmoura/maratonajava/intro/Class01_HelloWorld.java
-    java com.devdeividmoura.maratonajava.introduction.Class01_HelloWorld
+    javac -d . com/devdeividmoura/maratonajava/intro/Topic01_HelloWorld.java
+    java com.devdeividmoura.maratonajava.introduction.Topic01_HelloWorld
     ```
 
 ## ✨ Autor
