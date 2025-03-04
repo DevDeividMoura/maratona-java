@@ -15,6 +15,7 @@ maratona-java/
 │   │   ├── Topic03_Operators.md
 │   │   ├── Topic04_ConditionalStructures.md
 │   │   ├── Topic05_Loops.md
+│   │   ├── Topic06_Arrays.md
 │── src/                                               # Códigos-fonte organizados por módulos
 │   ├── com.devdeividmoura.maratonajava.introduction/  # Conceitos iniciais
 │   │   ├── Topic01_HelloWorld.java
@@ -22,6 +23,7 @@ maratona-java/
 │   │   ├── Topic03_Operators.java
 │   │   ├── Topic04_ConditionalStructures.java
 │   │   ├── Topic05_Loops.java
+│   │   ├── Topic06_Arrays.java
 │── .gitignore                                         # Arquivos ignorados pelo Git
 │── README.md                                          # Documentação principal do repositório
 ```
@@ -42,23 +44,23 @@ maratona-java/
       - <details>
           <summary><b> ✅ Conceitos Iniciais </b></summary>
       
-        - ✅ Estrutura básica de um código Java
-        - ✅ Diferença entre JVM, JDK e JRE
-        - ✅ Execução de um programa Java
+        - Estrutura básica de um código Java
+        - Diferença entre JVM, JDK e JRE
+        - Execução de um programa Java
         </details>
    
       - <details>
           <summary><b> ✅ Organização do Código </b></summary>
       
-         - ✅ Uso de pacotes (`package`)
-         - ✅ Convenção de nomenclatura baseada no domínio (`com.exemplo.projeto`)
+         - Uso de pacotes (`package`)
+         - Convenção de nomenclatura baseada no domínio (`com.exemplo.projeto`)
         </details>
       
       - <details>
           <summary><b> ✅ Comentários e Documentação </b></summary>
       
-         - ✅ Tipos de comentários em Java (`//`, `/* */`, `/** */`)
-         - ✅ Uso do JavaDoc para documentação de classes e métodos
+         - Tipos de comentários em Java (`//`, `/* */`, `/** */`)
+         - Uso do JavaDoc para documentação de classes e métodos
         </details>
    
      </details>
@@ -73,22 +75,22 @@ maratona-java/
        - <details>
            <summary><b> ✅ Introdução aos Tipos Primitivos </b></summary>
 
-           - ✅ O que são tipos primitivos?
-           - ✅ Diferença entre tipos primitivos e referências
+           - O que são tipos primitivos?
+           - Diferença entre tipos primitivos e referências
          </details>
          
        - <details>
            <summary><b> ✅ Tipos Numéricos </b></summary>
 
-           - ✅ Tipos inteiros (`byte`, `short`, `int`, `long`)
-           - ✅ Tipos de ponto flutuante (`float`, `double`)
+           - Tipos inteiros (`byte`, `short`, `int`, `long`)
+           - Tipos de ponto flutuante (`float`, `double`)
          </details>
      
        - <details>
            <summary><b> ✅ Outros Tipos Primitivos </b></summary>
 
-           - ✅ Tipo lógico (`boolean`)
-           - ✅ Tipo caractere (`char`)
+           - Tipo lógico (`boolean`)
+           - Tipo caractere (`char`)
          </details>
     
      </details>
@@ -202,8 +204,42 @@ maratona-java/
         </details>
 
      </details>
+   - <details>
+        <summary><b>
+      <a 
+          href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava.introduction/Topic06_Arrays.md"
+      > 
+          📦 Topic06_Arrays.md 
+      </a></b></summary>
+    
+        - <details>
+            <summary><b> ✅ Definição de Arrays </b></summary>
+    
+            - O que são arrays e como funcionam na memória
+            - Diferença entre array e `ArrayList`
+          </details>
 
+        - <details>
+             <summary><b> ✅ Alocação de Memória </b></summary>
 
+            - Arrays são armazenados na heap e acessados por referências.
+            - Arrays de tipos primitivos armazenam valores diretamente.
+            - Arrays de objetos armazenam referências para os objetos.
+          </details>
+
+        - <details>
+            <summary><b> ✅ Arrays Multidimensional </b></summary>
+    
+            - Arrays podem ter mais de uma dimensão (matrizes).
+          </details>
+
+        - <details>
+            <summary><b> ✅ Inicialização de Arrays </b></summary>
+    
+            - Criando arrays vazios e preenchidos
+            - Arrays multidimensionais
+          </details>
+     </details>
 
 
 </details>

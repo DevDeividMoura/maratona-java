@@ -4,7 +4,7 @@ package com.devdeividmoura.maratonajava.introduction;
  * Class Topic05_Loops - Demonstrates the use of loop structures in Java.
  *
  * @author DevDeividMoura
- * @version 1.1
+ * @version 1.0
  */
 public class Topic05_Loops {
     public static void main(String[] args) {
