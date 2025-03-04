@@ -1,100 +1,112 @@
-## 📌 Estruturas Condicionais
-**Data:** _28/02/2025_  
-**Objetivo**: Compreender as estruturas condicionais em Java, como `if`, `else`, `else if`, `switch` e o operador ternário.
+## 📌 Estruturas de Repetição
+**Data:** _01/03/2025_  
+**Objetivo**: Compreender as estruturas de repetição em Java, como `for`, `while` e `do-while`, além do uso de `break` e `continue`.
 
 ### 📚 Conceitos Aprendidos
 
 - <details>
-    <summary><b> ✅ Condicional If / Else </b></summary>
-    
-    - Utilizado para tomada de decisões com base em expressões booleanas.
-    - `if` avalia uma condição e executa um bloco de código se for verdadeira.
-    - `else` é executado caso a condição do `if` seja falsa.
-    - `else if` permite adicionar múltiplas verificações.
+    <summary><b> ✅ Estrutura While </b></summary>
 
-    - Exemplo:
-    ```java
-    int age = 18;
-    if (age >= 18) {
-    System.out.println("Maior de idade");
-    } else {
-    System.out.println("Menor de idade");
-    }
-    ```
+  - Utilizado quando o número de iterações não é conhecido de antemão.
+  - O loop continua enquanto a condição for verdadeira.
 
-    - Exemplo com `else if`:
+  - Exemplo:
     ```java
-    int grade = 85;
-    if (grade >= 90) {
-    System.out.println("Aprovado com excelência");
-    } else if (grade >= 70) {
-    System.out.println("Aprovado");
-    } else {
-    System.out.println("Reprovado");
+    int contador = 0;
+    while (contador < 5) {
+        System.out.println("Contador: " + contador);
+        contador++;
     }
     ```
   </details>
 
 - <details>
-    <summary><b> ✅ Switch Case </b></summary>
-    
-    - Utilizado quando há várias condições possíveis para uma mesma variável.
-    - Avalia a variável e executa o bloco correspondente ao `case` correspondente.
-    - O `break` impede que os próximos `case` sejam executados.
-    - O `default` funciona como o `else`, sendo executado se nenhuma das opções for atendida.
+    <summary><b> ✅ Estrutura Do-While </b></summary>
 
-    - Exemplo:
-    ```java
-    int day = 3;
-    switch (day) {
-        case 1:
-            System.out.println("Domingo");
-            break;
-        case 2:
-            System.out.println("Segunda-feira");
-            break;
-        case 3:
-            System.out.println("Terça-feira");
-            break;
-        default:
-            System.out.println("Dia inválido");
-            break;
-    }
-    ```
+  - Semelhante ao `while`, mas garante que o bloco de código seja executado ao menos uma vez.
+  - Sintaxe: `do { bloco de código } while (condição);`
 
-    - No Java 14+, é possível utilizar `switch` com `->`:
+  - Exemplo:
     ```java
-    int option = 2;
-    String resultado = switch (option) {
-        case 1 -> "Opção 1 escolhida";
-        case 2 -> "Opção 2 escolhida";
-        case 3 -> "Opção 3 escolhida";
-        default -> "Opção inválida";
-    };
-    System.out.println(resultado);
+    int numero = 1;
+    do {
+        System.out.println("Número: " + numero);
+        numero++;
+    } while (numero <= 5);
     ```
   </details>
 
 - <details>
-    <summary><b> ✅ Operador Ternário </b></summary>
-    
-    - Forma reduzida de `if-else` para expressões simples.
-    - Sintaxe: `condicao ? valor_se_verdadeiro : valor_se_falso;`
-    
-    - Exemplo:
+    <summary><b> ✅ Estrutura For </b></summary>
+
+  - Utilizado quando o número de iterações é conhecido previamente.
+  - Sintaxe básica: `for (inicialização; condição; incremento) { bloco de código }`
+
+  - Exemplo:
     ```java
-    int age = 20;
-    String status = (age >= 18) ? "Maior de idade" : "Menor de idade";
-    System.out.println(status);
+    for (int i = 0; i < 5; i++) {
+        System.out.println("Iteração: " + i);
+    }
+    ```
+
+  - Exemplo com loop reverso:
+    ```java
+    for (int i = 5; i >= 1; i--) {
+        System.out.println("Contagem regressiva: " + i);
+    }
+    ```
+  </details>
+
+- <details>
+    <summary><b> ✅ Estrutura Foreach </b></summary>
+
+  - Usado para percorrer arrays e coleções de maneira simplificada.
+  - Sintaxe: `for (TipoVariável nomeVariável : coleção) { bloco de código }`
+
+  - Exemplo:
+    ```java
+    int[] nums = {1, 2, 3, 4, 5};
+    for (int num : nums) {
+        System.out.println("Número: " + num);
+    }
+    ```
+  </details>
+
+- <details>
+    <summary><b> ✅ Uso de Break e Continue </b></summary>
+
+  - `break`: Interrompe o loop imediatamente.
+  - `continue`: Pula a iteração atual e avança para a próxima.
+
+  - Exemplo com `break`:
+    ```java
+    for (int i = 1; i <= 10; i++) {
+        if (i == 5) {
+            break; // Sai do loop quando i for 5
+        }
+        System.out.println("i: " + i);
+    }
+    ```
+
+  - Exemplo com `continue`:
+    ```java
+    for (int i = 1; i <= 5; i++) {
+        if (i == 3) {
+            continue; // Pula a iteração quando i for 3
+        }
+        System.out.println("i: " + i);
+    }
     ```
   </details>
 
 ### 💻 Implementação Prática
 - Você pode conferir o código completo neste arquivo:
-  - 🔀 [Topic04_ConditionalStructures.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/introduction/Topic04_ConditionalStructures.java)
+  - 🔄 [Topic05_Loops.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/introduction/Topic05_Loops.java)
 
 ### 🔍 Observações
-- Sempre utilizar `break` no `switch` para evitar a execução de múltiplos casos.
-- O operador ternário deve ser utilizado apenas para expressões simples para manter a legibilidade do código.
-- `if-else` é mais flexível, enquanto `switch` é útil para múltiplas comparações de valores fixos.
+- O `for` é ideal para loops com contadores fixos.
+- O `foreach` (`for-each`) é útil para percorrer arrays e coleções sem a necessidade de controle de índice.
+- O `while` é recomendado para loops que dependem de condições dinâmicas.
+- O `do-while` garante pelo menos uma execução do bloco de código.
+- `break` e `continue` devem ser usados com cautela para evitar fluxos de controle confusos.
 
