@@ -1,112 +1,81 @@
-## 📌 Estruturas de Repetição
-**Data:** _01/03/2025_  
-**Objetivo**: Compreender as estruturas de repetição em Java, como `for`, `while` e `do-while`, além do uso de `break` e `continue`.
+## 📌 Conceitos de Arrays
+**Data:** _02/03/2025_ e _03/03/2025_   
+**Objetivo**: Compreender a estrutura e funcionamento dos arrays em Java, incluindo sua alocação de memória e inicialização.
 
 ### 📚 Conceitos Aprendidos
 
 - <details>
-    <summary><b> ✅ Estrutura While </b></summary>
+    <summary><b>✅ Definição de Arrays </b></summary>
 
-  - Utilizado quando o número de iterações não é conhecido de antemão.
-  - O loop continua enquanto a condição for verdadeira.
+  - Um **array** é uma estrutura que armazena vários elementos do **mesmo tipo**.
+  - Ele é um **objeto** que referencia um bloco contíguo de memória.
+  - O tamanho do array é **fixo** após a sua criação.
 
   - Exemplo:
     ```java
-    int contador = 0;
-    while (contador < 5) {
-        System.out.println("Contador: " + contador);
-        contador++;
-    }
+    int[] numbers = {1, 2, 3, 4, 5};
     ```
   </details>
 
 - <details>
-    <summary><b> ✅ Estrutura Do-While </b></summary>
+    <summary><b>✅ Alocação de Memória </b></summary>
 
-  - Semelhante ao `while`, mas garante que o bloco de código seja executado ao menos uma vez.
-  - Sintaxe: `do { bloco de código } while (condição);`
+  - Quando um array é criado, o Java aloca um bloco contíguo de memória para armazenar seus elementos.
+  - O nome do array é uma **referência** ao objeto que armazena os elementos.
+  - Arrays de **tipos primitivos** armazenam diretamente os valores.
+  - Arrays de **objetos** armazenam **referências** aos objetos.
 
-  - Exemplo:
+  - Exemplo de array de objetos:
     ```java
-    int numero = 1;
-    do {
-        System.out.println("Número: " + numero);
-        numero++;
-    } while (numero <= 5);
+    String[] names = new String[3]; // Array de Strings inicializado com null
+    names[0] = "Goku"; // Agora a posição 0 referencia um objeto String
     ```
   </details>
 
 - <details>
-    <summary><b> ✅ Estrutura For </b></summary>
+    <summary><b>✅ Inicialização de Arrays </b></summary>
 
-  - Utilizado quando o número de iterações é conhecido previamente.
-  - Sintaxe básica: `for (inicialização; condição; incremento) { bloco de código }`
-
-  - Exemplo:
-    ```java
-    for (int i = 0; i < 5; i++) {
-        System.out.println("Iteração: " + i);
-    }
-    ```
-
-  - Exemplo com loop reverso:
-    ```java
-    for (int i = 5; i >= 1; i--) {
-        System.out.println("Contagem regressiva: " + i);
-    }
-    ```
+  - Um array pode ser inicializado de diferentes formas:
+    - Declaração com valores:
+      ```java
+      int[] ages = {21, 15, 11};
+      ```
+    - Declaração com tamanho fixo:
+      ```java
+      int[] numbers = new int[3]; // Inicializado com valores padrão (0 para inteiros)
+      ```
+    - Declaração e inicialização separadas:
+      ```java
+      String[] names;
+      names = new String[]{"Goku", "Vegeta", "Gohan"};
+      ```
   </details>
 
 - <details>
-    <summary><b> ✅ Estrutura Foreach </b></summary>
+    <summary><b>✅ Arrays Multidimensionais </b></summary>
 
-  - Usado para percorrer arrays e coleções de maneira simplificada.
-  - Sintaxe: `for (TipoVariável nomeVariável : coleção) { bloco de código }`
-
-  - Exemplo:
+  - Arrays podem ter mais de uma dimensão (matrizes).
+  - Exemplo de um array bidimensional:
     ```java
-    int[] nums = {1, 2, 3, 4, 5};
-    for (int num : nums) {
-        System.out.println("Número: " + num);
-    }
+    int[][] matrix = {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+    };
     ```
-  </details>
-
-- <details>
-    <summary><b> ✅ Uso de Break e Continue </b></summary>
-
-  - `break`: Interrompe o loop imediatamente.
-  - `continue`: Pula a iteração atual e avança para a próxima.
-
-  - Exemplo com `break`:
+  - Para acessar elementos:
     ```java
-    for (int i = 1; i <= 10; i++) {
-        if (i == 5) {
-            break; // Sai do loop quando i for 5
-        }
-        System.out.println("i: " + i);
-    }
-    ```
-
-  - Exemplo com `continue`:
-    ```java
-    for (int i = 1; i <= 5; i++) {
-        if (i == 3) {
-            continue; // Pula a iteração quando i for 3
-        }
-        System.out.println("i: " + i);
-    }
+    System.out.println(matrix[1][2]); // Saída: 6
     ```
   </details>
 
 ### 💻 Implementação Prática
-- Você pode conferir o código completo neste arquivo:
-  - 🔄 [Topic05_Loops.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/introduction/Topic05_Loops.java)
+- Código completo pode ser acessado no arquivo:
+  - 📦 [Topic06_Arrays.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/introduction/Topic06_Arrays.java)
 
 ### 🔍 Observações
-- O `for` é ideal para loops com contadores fixos.
-- O `foreach` (`for-each`) é útil para percorrer arrays e coleções sem a necessidade de controle de índice.
-- O `while` é recomendado para loops que dependem de condições dinâmicas.
-- O `do-while` garante pelo menos uma execução do bloco de código.
-- `break` e `continue` devem ser usados com cautela para evitar fluxos de controle confusos.
-
+- Arrays são referências para objetos na memória.
+- O tamanho de um array não pode ser alterado após a inicialização.
+- Arrays de tipos primitivos armazenam os valores diretamente.
+- Arrays de objetos armazenam referências para os objetos reais.
+- Para percorrer arrays, é comum o uso do `for` ou `foreach` (`for-each`).
