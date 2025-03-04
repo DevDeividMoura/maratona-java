@@ -13,11 +13,13 @@ maratona-java/
 │   │   ├── Topic01_HelloWorld.md
 │   │   ├── Topic02_PrimitiveTypes.md
 │   │   ├── Topic03_Operators.md
+│   │   ├── Topic04_ConditionalStructures.md
 │── src/                                               # Códigos-fonte organizados por módulos
 │   ├── com.devdeividmoura.maratonajava.introduction/  # Conceitos iniciais
 │   │   ├── Topic01_HelloWorld.java
 │   │   ├── Topic02_PrimitiveTypes.java
 │   │   ├── Topic03_Operators.java
+│   │   ├── Topic04_ConditionalStructures.java
 │── .gitignore                                         # Arquivos ignorados pelo Git
 │── README.md                                          # Documentação principal do repositório
 ```
@@ -130,6 +132,44 @@ maratona-java/
           - `++` e `--`, incluindo pré e pós-incremento.
         </details>
      </details>
+
+   - <details>
+        <summary><b>
+        <a href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava.introduction/Topic04_ConditionalStructures.md">
+           🔀 Topic04_ConditionalStructures.md
+        </a></b></summary>
+    
+        - <details>
+             <summary><b> ✅ Condicional If / Else </b></summary>
+        
+            - Estruturas básicas para tomada de decisão.
+            - Uso de `if`, `else if` e `else` para controle de fluxo.
+            - Exemplo de categorização por idade.
+          </details>
+        
+        - <details>
+            <summary><b> ✅ Operador Ternário </b></summary>
+        
+            - Substitui `if-else` simples em expressões curtas.
+            - Exemplo de decisão baseada em salário.
+          </details>
+        
+        - <details>
+            <summary><b> ✅ Estrutura Switch </b></summary>
+        
+            - Utilizado para múltiplas comparações de valores fixos.
+            - Sintaxe tradicional e versão simplificada disponível no Java 14+.
+            - Exemplo de determinação do dia da semana.
+          </details>
+        
+        - <details>
+            <summary><b> ✅ Exercícios Práticos </b></summary>
+        
+            - Cálculo de imposto baseado em faixas salariais.
+            - Identificação de dias úteis e fins de semana com `switch`.
+          </details>
+   </details>
+
 
 
 </details>
