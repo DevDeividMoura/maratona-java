@@ -85,7 +85,7 @@
 
 ### 💻 Implementação Prática
 - Você pode conferir o código completo neste arquivo:
-  - 🧮 [Topic03_Operators.java](https://github.com/DevDeividMoura/maratona-java/tree/main/docs/com.devdeividmoura.maratonajava.introduction/Topic03_Operators.md)
+  - 🧮 [Topic03_Operators.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/introduction/Topic03_Operators.java)
 
 ### 🔍 Observações
 - Sempre atente-se ao tipo de dado ao usar operadores matemáticos e relacionais.

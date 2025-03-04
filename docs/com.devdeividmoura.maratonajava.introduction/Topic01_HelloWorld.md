@@ -77,4 +77,4 @@
 
 ### 💻 Implementação Prática
 - Você pode conferir o código completo neste arquivo:
-  - 🌎 [Topic01_HelloWord.java](https://github.com/DevDeividMoura/maratona-java/tree/main/docs/com.devdeividmoura.maratonajava.introduction/Topic01_HelloWorld.md)
+  - 🌎 [Topic01_HelloWord.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/introduction/Topic01_HelloWorld.java)

@@ -75,7 +75,7 @@
 
 ### 💻 Implementação Prática
 - Você pode conferir o código completo neste arquivo:
-  - 🔢 [Topic02_PrimitiveTypes.java](https://github.com/DevDeividMoura/maratona-java/tree/main/docs/com.devdeividmoura.maratonajava.introduction/Topic02_PrimitiveTypes.md)
+  - 🔢 [Topic02_PrimitiveTypes.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/introduction/Topic02_PrimitiveTypes.java)
 
 ### 🔍 Observações
 - As variáveis numéricas podem ter valores negativos ou positivos, exceto `char` e `boolean`.
