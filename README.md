@@ -17,13 +17,17 @@ maratona-java/
 │   │   ├── Topic05_Loops.md
 │   │   ├── Topic06_Arrays.md
 │── src/                                               # Códigos-fonte organizados por módulos
-│   ├── com.devdeividmoura.maratonajava.introduction/  # Conceitos iniciais
-│   │   ├── Topic01_HelloWorld.java
-│   │   ├── Topic02_PrimitiveTypes.java
-│   │   ├── Topic03_Operators.java
-│   │   ├── Topic04_ConditionalStructures.java
-│   │   ├── Topic05_Loops.java
-│   │   ├── Topic06_Arrays.java
+│   ├── com.devdeividmoura.maratonajava/
+│   │   ├── introduction/                              # Conceitos iniciais
+│   │   │   ├── Topic01_HelloWorld.java
+│   │   │   ├── Topic02_PrimitiveTypes.java
+│   │   │   ├── Topic03_Operators.java
+│   │   │   ├── Topic04_ConditionalStructures.java
+│   │   │   ├── Topic05_Loops.java
+│   │   │   ├── Topic06_Arrays.java
+│   │   ├── projects/                                  # Projetos de Pratica
+│   │   │   ├── tictactoe/
+│   │   │   │   ├── TicTacToe.java
 │── .gitignore                                         # Arquivos ignorados pelo Git
 │── README.md                                          # Documentação principal do repositório
 ```
@@ -243,6 +247,27 @@ maratona-java/
 
 
 </details>
+
+## 💡 Projetos de Prática
+<details>
+
+<summary><b> 🎮 Jogos </b></summary>
+
+- <details>
+    <summary><b>
+    <a 
+        href="https://github.com/DevDeividMoura/maratona-java/tree/main/src/com/devdeividmoura/maratonajava/projects/tictactoe/TicTacToe.java"
+    > 
+        ❌⭕ Tic-Tac-Toe 
+    </a></b></summary>
+
+    - Jogo clássico da velha implementado em Java.
+    - Uso de matriz bidimensional para representar o tabuleiro.
+    - Interação via terminal para entrada dos jogadores.
+  </details>
+
+</details>
+
 
 ## 🚀 Como Executar
 1. Clone este repositório:
