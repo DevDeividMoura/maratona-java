@@ -1,86 +1,60 @@
 # 📌 Maratona Java
 **Repositório de estudos da linguagem Java**
 
+---
 ## 📖 Sobre
 Este repositório contém códigos e anotações do meu aprendizado em Java, organizados por temas e conceitos estudados.
 Cada código possui um arquivo `.md` correspondente na pasta `docs/`, contendo explicações detalhadas.
-
-## 📂 Estrutura do Projeto
-```
-maratona-java/
-│── docs/                                              # Documentação e anotações organizadas por módulos
-│   ├── com.devdeividmoura.maratonajava.introduction/  # Conceitos iniciais
-│   │   ├── Topic01_HelloWorld.md
-│   │   ├── Topic02_PrimitiveTypes.md
-│   │   ├── Topic03_Operators.md
-│   │   ├── Topic04_ConditionalStructures.md
-│   │   ├── Topic05_Loops.md
-│   │   ├── Topic06_Arrays.md
-│── src/                                               # Códigos-fonte organizados por módulos
-│   ├── com.devdeividmoura.maratonajava/
-│   │   ├── introduction/                              # Conceitos iniciais
-│   │   │   ├── Topic01_HelloWorld.java
-│   │   │   ├── Topic02_PrimitiveTypes.java
-│   │   │   ├── Topic03_Operators.java
-│   │   │   ├── Topic04_ConditionalStructures.java
-│   │   │   ├── Topic05_Loops.java
-│   │   │   ├── Topic06_Arrays.java
-│   │   ├── projects/                                  # Projetos de Pratica
-│   │   │   ├── tictactoe/
-│   │   │   │   ├── TicTacToe.java
-│── .gitignore                                         # Arquivos ignorados pelo Git
-│── README.md                                          # Documentação principal do repositório
-```
-
+---
 ## 📚 Conteúdos
-<details>
+- <details>
 
-<summary><b> 📌 Introdução </b></summary>
-
+    <summary><b> 📌 Introdução </b></summary>
+    
    - <details>
        <summary><b>
      <a 
-         href="https://github.com/DevDeividMoura/maratona-java/tree/main/docs/com.devdeividmoura.maratonajava.introduction/Topic01_HelloWorld.md"
+         href="https://github.com/DevDeividMoura/maratona-java/tree/main/docs/com.devdeividmoura.maratonajava/introduction/Topic01_HelloWorld.md"
      > 
-         🌎 Topic01_HelloWord.md 
+         🌎 Tópico 01 - Hello World 
      </a></b></summary>
    
       - <details>
           <summary><b> ✅ Conceitos Iniciais </b></summary>
       
-        - Estrutura básica de um código Java
-        - Diferença entre JVM, JDK e JRE
-        - Execução de um programa Java
+          - Estrutura básica de um código Java
+          - Diferença entre JVM, JDK e JRE
+          - Execução de um programa Java
         </details>
    
       - <details>
           <summary><b> ✅ Organização do Código </b></summary>
       
-         - Uso de pacotes (`package`)
-         - Convenção de nomenclatura baseada no domínio (`com.exemplo.projeto`)
+           - Uso de pacotes (`package`)
+           - Convenção de nomenclatura baseada no domínio (`com.exemplo.projeto`)
         </details>
       
       - <details>
           <summary><b> ✅ Comentários e Documentação </b></summary>
       
-         - Tipos de comentários em Java (`//`, `/* */`, `/** */`)
-         - Uso do JavaDoc para documentação de classes e métodos
+           - Tipos de comentários em Java (`//`, `/* */`, `/** */`)
+           - Uso do JavaDoc para documentação de classes e métodos
         </details>
    
      </details>
    - <details>
        <summary><b>
      <a 
-         href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava.introduction/Topic02_PrimitiveTypes.md"
+         href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava/introduction/Topic02_PrimitiveTypes.md"
      > 
-         🔢 Topic02_PrimitiveTypes.md 
+         🔢 Tópico 02 - Tipos Primitivos
      </a></b></summary>
         
        - <details>
            <summary><b> ✅ Introdução aos Tipos Primitivos </b></summary>
 
-           - O que são tipos primitivos?
-           - Diferença entre tipos primitivos e referências
+         - O que são tipos primitivos?
+         - Diferença entre tipos primitivos e referências
          </details>
          
        - <details>
@@ -100,8 +74,8 @@ maratona-java/
      </details>
    - <details>
           <summary><b>
-          <a href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava.introduction/Topic03_Operators.md">
-             🧮 Topic03_Operators.md 
+          <a href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava/introduction/Topic03_Operators.md">
+             🧮 Tópico 03 - Operadores
           </a></b></summary>
 
       - <details>
@@ -136,8 +110,8 @@ maratona-java/
      </details>
    - <details>
         <summary><b>
-        <a href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava.introduction/Topic04_ConditionalStructures.md">
-           🔀 Topic04_ConditionalStructures.md
+        <a href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava/introduction/Topic04_ConditionalStructures.md">
+           🔀 Tópico 04 - Estruturas Condicionais
         </a></b></summary>
     
         - <details>
@@ -147,27 +121,27 @@ maratona-java/
             - Uso de `if`, `else if` e `else` para controle de fluxo.
             - Exemplo de categorização por idade.
           </details>
-        
+    
         - <details>
-            <summary><b> ✅ Operador Ternário </b></summary>
-        
-            - Substitui `if-else` simples em expressões curtas.
-            - Exemplo de decisão baseada em salário.
-          </details>
-        
-        - <details>
-            <summary><b> ✅ Estrutura Switch </b></summary>
+            <summary><b> ✅ Switch Case </b></summary>
         
             - Utilizado para múltiplas comparações de valores fixos.
             - Sintaxe tradicional e versão simplificada disponível no Java 14+.
             - Exemplo de determinação do dia da semana.
           </details>
     
+        - <details>
+            <summary><b> ✅ Operador Ternário </b></summary>
+        
+            - Substitui `if-else` simples em expressões curtas.
+            - Exemplo de decisão baseada em salário.
+          </details>
+
      </details>
    - <details>
       <summary><b>
-      <a href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava.introduction/Topic05_Loops.md">
-         🔄 Topic05_Loops.md
+      <a href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava/introduction/Topic05_Loops.md">
+         🔄 Tópico 05 - Laços de Repetição
       </a></b></summary>
 
       - <details>
@@ -211,9 +185,9 @@ maratona-java/
    - <details>
         <summary><b>
       <a 
-          href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava.introduction/Topic06_Arrays.md"
+          href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava/introduction/Topic06_Arrays.md"
       > 
-          📦 Topic06_Arrays.md 
+          📦 Tópico 06 - Arrays
       </a></b></summary>
     
         - <details>
@@ -244,31 +218,65 @@ maratona-java/
             - Arrays multidimensionais
           </details>
      </details>
-
-
-</details>
-
-## 💡 Projetos de Prática
-<details>
-
-<summary><b> 🎮 Jogos </b></summary>
-
-- <details>
-    <summary><b>
-    <a 
-        href="https://github.com/DevDeividMoura/maratona-java/tree/main/src/com/devdeividmoura/maratonajava/projects/tictactoe/TicTacToe.java"
-    > 
-        ❌⭕ Tic-Tac-Toe 
-    </a></b></summary>
-
-    - Jogo clássico da velha implementado em Java.
-    - Uso de matriz bidimensional para representar o tabuleiro.
-    - Interação via terminal para entrada dos jogadores.
   </details>
 
-</details>
+- <details>
 
+    <summary><b> 🧩 Programação Orientada à Objeto </b></summary>
 
+    - <details>
+        <summary><b>
+      <a 
+          href="https://github.com/DevDeividMoura/maratona-java/tree/main/docs/com.devdeividmoura.maratonajava/oop/Topic01_ClassesIntroduction.md"
+      > 
+          📦 Tópico 01 - Introdução a Classes
+      </a></b></summary>
+
+        - <details>
+            <summary><b> ✅ Conceitos Iniciais sobre Classes </b></summary>
+        
+            - O que são classes e objetos em Java
+            - Atributos e métodos de uma classe
+            - Instanciação de objetos com `new`
+            - Referência de objetos e alocação na memória
+          </details>
+    
+        - <details>
+            <summary><b> ✅ Valores Padrão </b></summary>
+        
+            - Valores padrão para atributos não inicializados (`0`, `null`, `''`)
+          </details>
+        
+        - <details>
+            <summary><b> ✅ Exemplos Práticos </b></summary>
+        
+            - Criação de uma classe `Studant` com atributos básicos
+            - Testes de instanciação e atribuição de valores
+          </details>
+    
+      </details>
+  </details>
+---
+## 💡 Projetos de Prática
+- <details>
+
+    <summary><b> 🎮 Jogos </b></summary>
+    
+    - <details>
+        <summary><b>
+        <a 
+            href="https://github.com/DevDeividMoura/maratona-java/tree/main/src/com/devdeividmoura/maratonajava/projects/tictactoe/TicTacToe.java"
+        > 
+            ❌⭕ Tic-Tac-Toe 
+        </a></b></summary>
+    
+        - Jogo clássico da velha implementado em Java.
+        - Uso de matriz bidimensional para representar o tabuleiro.
+        - Interação via terminal para entrada dos jogadores.
+      </details>
+    
+  </details>
+---
 ## 🚀 Como Executar
 1. Clone este repositório:
     ```sh
@@ -280,6 +288,43 @@ maratona-java/
     javac -d . com/devdeividmoura/maratonajava/intro/Topic01_HelloWorld.java
     java com.devdeividmoura.maratonajava.introduction.Topic01_HelloWorld
     ```
-
+---
+## 📂 Estrutura do Projeto
+```
+maratona-java/
+│── docs/                                              # Documentação e anotações organizadas por módulos
+│   ├── com.devdeividmoura.maratonajava/  
+│   │   ├── introduction/                              # Conceitos iniciais
+│   │   │   ├── Topic01_HelloWorld.md
+│   │   │   ├── Topic02_PrimitiveTypes.md
+│   │   │   ├── Topic03_Operators.md
+│   │   │   ├── Topic04_ConditionalStructures.md
+│   │   │   ├── Topic05_Loops.md
+│   │   │   ├── Topic06_Arrays.md
+│   │   ├── oop/                                       # Orientação à Objeto
+│   │   │   ├── Topic01_ClassesIntroduction.md
+│── src/                                               # Códigos-fonte organizados por módulos
+│   ├── com.devdeividmoura.maratonajava/
+│   │   ├── introduction/                              # Conceitos iniciais
+│   │   │   ├── Topic01_HelloWorld.java
+│   │   │   ├── Topic02_PrimitiveTypes.java
+│   │   │   ├── Topic03_Operators.java
+│   │   │   ├── Topic04_ConditionalStructures.java
+│   │   │   ├── Topic05_Loops.java
+│   │   │   ├── Topic06_Arrays.java
+│   │   ├── oop/                                       # Orientação à Objeto
+│   │   │   ├── Topic01_ClassesIntroduction/
+│   │   │   │   ├── domain/
+│   │   │   │   │   ├── Student.java
+│   │   │   │   ├── tests/
+│   │   │   │   │   ├── StudentTest01.java
+│   │   │   │   │   ├── StudentTest02.java
+│   │   ├── projects/                                  # Projetos de Pratica
+│   │   │   ├── tictactoe/
+│   │   │   │   ├── TicTacToe.java
+│── .gitignore                                         # Arquivos ignorados pelo Git
+│── README.md                                          # Documentação principal do repositório
+```
+---
 ## ✨ Autor
 [Deivid Moura](https://github.com/DevDeividMoura) - Desenvolvedor Back-end 🚀  

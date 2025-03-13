@@ -33,6 +33,24 @@
   </details>
 
 - <details>
+    <summary><b>✅ Arrays Multidimensionais </b></summary>
+
+  - Arrays podem ter mais de uma dimensão (matrizes).
+  - Exemplo de um array bidimensional:
+    ```java
+    int[][] matrix = {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+    };
+    ```
+  - Para acessar elementos:
+    ```java
+    System.out.println(matrix[1][2]); // Saída: 6
+    ```
+  </details>
+
+- <details>
     <summary><b>✅ Inicialização de Arrays </b></summary>
 
   - Um array pode ser inicializado de diferentes formas:
@@ -49,24 +67,6 @@
       String[] names;
       names = new String[]{"Goku", "Vegeta", "Gohan"};
       ```
-  </details>
-
-- <details>
-    <summary><b>✅ Arrays Multidimensionais </b></summary>
-
-  - Arrays podem ter mais de uma dimensão (matrizes).
-  - Exemplo de um array bidimensional:
-    ```java
-    int[][] matrix = {
-        {1, 2, 3},
-        {4, 5, 6},
-        {7, 8, 9}
-    };
-    ```
-  - Para acessar elementos:
-    ```java
-    System.out.println(matrix[1][2]); // Saída: 6
-    ```
   </details>
 
 ### 💻 Implementação Prática
