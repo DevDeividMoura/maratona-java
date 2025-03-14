@@ -35,9 +35,9 @@
 
     - Os atributos de uma classe são as características que os objetos possuirão.
     - Se não forem inicializados explicitamente, recebem valores padrão em Java:
-  
+
       | Tipo      | Valor Padrão |
-      |-----------|--------------|
+            |-----------|--------------|
       | `byte`    | 0            |
       | `short`   | 0            |
       | `int`     | 0            |
@@ -69,14 +69,43 @@
       ```
   </details>
 
+- <details>
+      <summary><b> ✅ Coesão nas Classes </b></summary>
+
+    - Cada classe deve ter uma responsabilidade única e bem definida.
+    - O método `psvm` (public static void main) é utilizado apenas em classes de teste ou para iniciar o programa, mantendo as classes de domínio focadas em suas responsabilidades.
+    - Exemplo:
+      ```java
+      public class Teacher {
+          public String name;
+          public String subject;
+      }
+      ```
+      E o teste correspondente:
+      ```java
+      public class TeacherTest01 {
+          public static void main(String[] args) {
+              Teacher teacher = new Teacher();
+              teacher.name = "Master Kami";
+              teacher.subject = "Matemática";
+              System.out.println(teacher.name);
+              System.out.println(teacher.subject);
+          }
+      }
+      ```
+  </details>
+
 ### 💻 Implementação Prática
 - Você pode conferir o código completo nestes arquivos:
     - 🧑 [Student.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/domain/Student.java)
     - ✅ [StudentTest01.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/tests/StudentTest01.java)
     - ✅ [StudentTest02.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/tests/StudentTest02.java)
+    - 👨‍🏫 [Teacher.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/domain/Teacher.java)
+    - ✅ [TeacherTest01.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/tests/TeacherTest01.java)
 
 ### 🔍 Observações
 - Lembre-se de inicializar os atributos quando necessário para evitar comportamentos inesperados.
 - Compreender o conceito de referência é essencial para evitar bugs relacionados a manipulação de objetos em memória.
 - O uso adequado de atributos e métodos auxilia na construção de códigos mais limpos e coesos.
+- Separe as responsabilidades das classes para garantir maior coesão e manutenibilidade.
 
