@@ -246,6 +246,12 @@ Cada código possui um arquivo `.md` correspondente na pasta `docs/`, contendo e
         
             - Valores padrão para atributos não inicializados (`0`, `null`, `''`)
           </details>
+            
+        - <details>
+            <summary><b> ✅ Coesão nas Classes </b></summary>
+    
+            - Cada classe deve ter uma responsabilidade única e bem definida.
+          </details>
         
         - <details>
             <summary><b> ✅ Exemplos Práticos </b></summary>
@@ -315,10 +321,14 @@ maratona-java/
 │   │   ├── oop/                                       # Orientação à Objeto
 │   │   │   ├── Topic01_ClassesIntroduction/
 │   │   │   │   ├── domain/
+│   │   │   │   │   ├── Car.java
 │   │   │   │   │   ├── Student.java
+│   │   │   │   │   ├── Teacher.java
 │   │   │   │   ├── tests/
+│   │   │   │   │   ├── CarTest01.java
 │   │   │   │   │   ├── StudentTest01.java
 │   │   │   │   │   ├── StudentTest02.java
+│   │   │   │   │   ├── TeacherTest02.java
 │   │   ├── projects/                                  # Projetos de Pratica
 │   │   │   ├── tictactoe/
 │   │   │   │   ├── TicTacToe.java
