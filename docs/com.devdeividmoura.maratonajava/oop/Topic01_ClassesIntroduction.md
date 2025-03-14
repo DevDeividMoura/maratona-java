@@ -56,20 +56,6 @@
   </details>
 
 - <details>
-      <summary><b> ✅ Cuidado com Variáveis de Referência </b></summary>
-
-    - Em Java, objetos são manipulados através de referências de memória.
-    - Duas variáveis podem apontar para o mesmo objeto, o que significa que mudanças feitas por uma variável impactam a outra.
-    - Exemplo:
-      ```java
-      Student student1 = new Student();
-      Student student2 = student1;
-      student2.name = "Zoro";
-      System.out.println(student1.name); // Zoro
-      ```
-  </details>
-
-- <details>
       <summary><b> ✅ Coesão nas Classes </b></summary>
 
     - Cada classe deve ter uma responsabilidade única e bem definida.
@@ -95,6 +81,29 @@
       ```
   </details>
 
+- <details>
+      <summary><b> ✅ Cuidado com Variáveis de Referência </b></summary>
+
+    - Em Java, objetos são manipulados através de referências de memória.
+    - Duas variáveis podem apontar para o mesmo objeto, o que significa que mudanças feitas por uma variável impactam a outra.
+    - Quando um objeto deixa de ser referenciado por qualquer variável, ele se torna elegível para coleta de lixo (garbage collection) e não pode mais ser acessado.
+    - Exemplo de atribuição de referência:
+      ```java
+      Car car01 = new Car();
+      Car car02 = new Car();
+      
+      car02 = car01;
+      car02.model = "Santana";
+      System.out.println(car01.model); // Santana
+      
+      ```
+    - Após `car02 = car01;`, ambos apontam para o mesmo objeto, e a referência anterior de `car02` é perdida.
+    - Para liberar explicitamente uma referência:
+      ```java
+      car01 = null; // O objeto referenciado anteriormente se torna elegível para coleta de lixo
+      ```
+  </details>
+
 ### 💻 Implementação Prática
 - Você pode conferir o código completo nestes arquivos:
     - 🧑 [Student.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/domain/Student.java)
@@ -103,9 +112,21 @@
     - 👨‍🏫 [Teacher.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/domain/Teacher.java)
     - ✅ [TeacherTest01.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/tests/TeacherTest01.java)
 
+### 📐 Exercício Prático: Classe Carro
+- **Descrição**: Crie uma classe `Car` com os seguintes atributos:
+    - `String model`
+    - `String brand`
+    - `int year`
+- Em seguida, crie dois objetos distintos e imprima seus valores.
+- Código:
+    - 🏎️️ [Car.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/domain/Car.java)
+    - ✅ [CarTest01.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/tests/CarTest01.java)
+
+
 ### 🔍 Observações
 - Lembre-se de inicializar os atributos quando necessário para evitar comportamentos inesperados.
 - Compreender o conceito de referência é essencial para evitar bugs relacionados a manipulação de objetos em memória.
 - O uso adequado de atributos e métodos auxilia na construção de códigos mais limpos e coesos.
 - Separe as responsabilidades das classes para garantir maior coesão e manutenibilidade.
+- Atenção ao ciclo de vida dos objetos e à liberação de referências desnecessárias para otimizar o uso de memória.
 
