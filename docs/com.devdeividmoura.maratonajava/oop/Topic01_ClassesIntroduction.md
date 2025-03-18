@@ -106,10 +106,12 @@
 
 ### 💻 Implementação Prática
 - Você pode conferir o código completo nestes arquivos:
+  - **Domínio**:
     - 🧑 [Student.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/domain/Student.java)
+    - 👨‍🏫 [Teacher.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/domain/Teacher.java)
+  - **Testes**:
     - ✅ [StudentTest01.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/tests/StudentTest01.java)
     - ✅ [StudentTest02.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/tests/StudentTest02.java)
-    - 👨‍🏫 [Teacher.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/domain/Teacher.java)
     - ✅ [TeacherTest01.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/tests/TeacherTest01.java)
 
 ### 📐 Exercício Prático: Classe Carro
@@ -119,8 +121,10 @@
     - `int year`
 - Em seguida, crie dois objetos distintos e imprima seus valores.
 - Código:
-    - 🏎️️ [Car.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/domain/Car.java)
-    - ✅ [CarTest01.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/tests/CarTest01.java)
+  - **Domínio**:
+      - 🏎️️ [Car.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/domain/Car.java)
+  - **Teste**:
+      - ✅ [CarTest01.java](https://github.com/DevDeividMoura/maratona-java/blob/main/src/com/devdeividmoura/maratonajava/oop/Topic01_ClassesIntroduction/tests/CarTest01.java)
 
 
 ### 🔍 Observações
