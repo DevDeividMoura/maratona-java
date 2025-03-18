@@ -261,6 +261,58 @@ Cada código possui um arquivo `.md` correspondente na pasta `docs/`, contendo e
           </details>
     
       </details>
+    - <details>
+        <summary><b>
+            <a href="https://github.com/DevDeividMoura/maratona-java/blob/main/docs/com.devdeividmoura.maratonajava/oop/Topic02_ClassesMethods.md">
+                📌 Tópico 02 - Métodos de Classes em Java
+            </a>
+        </b></summary>
+
+      - <details>
+        <summary><b> ✅ Declaração e Diferença entre Retorno e Saída (sout) </b></summary>
+
+          - Conceito de método: conjunto de instruções que realiza uma tarefa.
+          - **Retorno**: Valor devolvido pelo método utilizando a palavra-chave `return`.
+          - **Saída (sout)**: Impressão no console (ex.: `System.out.println`), que não equivale a um retorno.
+        </details>
+      - <details>
+        <summary><b> ✅ Nomeação de Métodos e Parâmetros </b></summary>
+
+          - Métodos devem ser nomeados seguindo o padrão camelCase.
+          - Parâmetros são variáveis locais definidas na assinatura do método, seguindo a sintaxe `<tipo> <nome>`.
+        </details>
+      - <details>
+        <summary><b> ✅ Uso de Parâmetros nos Métodos </b></summary>
+
+          - Parâmetros permitem que métodos recebam dados necessários para sua execução.
+          - Exemplo: `public int somar(int a, int b) { return a + b; }`
+        </details>
+      - <details>
+        <summary><b> ✅ Retorno de Valores </b></summary>
+
+          - Métodos com tipos de retorno (ex.: `int`, `String`) devem retornar um valor compatível.
+          - Exemplo: `public double calcularMedia(double nota1, double nota2) { return (nota1 + nota2) / 2; }`
+        </details>
+      - <details>
+        <summary><b> ✅ Tipagem de Parâmetros: Tipos Primitivos vs. Tipos por Referência </b></summary>
+
+          - **Tipos Primitivos**: Passados por valor (o método recebe uma cópia).
+          - **Tipos por Referência**: Passados por referência (o método pode alterar o objeto original).
+        </details>
+      - <details>
+        <summary><b> ✅ Utilização do <code>this</code> </b></summary>
+
+          - A palavra-chave `this` referencia o objeto atual da classe, útil para diferenciar atributos de parâmetros.
+          - Exemplo: `this.result += value;`
+        </details>
+      - <details>
+        <summary><b> ✅ Uso de Varargs </b></summary>
+
+          - Permite que um método receba um número variável de argumentos usando reticências (`...`).
+          - Exemplo: `public int somarValores(int... numeros) { /* lógica */ }`
+        </details>
+
+    </details>
   </details>
 ---
 ## 💡 Projetos de Prática
@@ -309,6 +361,7 @@ maratona-java/
 │   │   │   ├── Topic06_Arrays.md
 │   │   ├── oop/                                       # Orientação à Objeto
 │   │   │   ├── Topic01_ClassesIntroduction.md
+│   │   │   ├── Topic02_ClassesMethods.md
 │── src/                                               # Códigos-fonte organizados por módulos
 │   ├── com.devdeividmoura.maratonajava/
 │   │   ├── introduction/                              # Conceitos iniciais
@@ -329,6 +382,21 @@ maratona-java/
 │   │   │   │   │   ├── StudentTest01.java
 │   │   │   │   │   ├── StudentTest02.java
 │   │   │   │   │   ├── TeacherTest02.java
+│   │   │   ├── Topic02_ClassesMethods/
+│   │   │   │   ├── domain/
+│   │   │   │   │   ├── Calculator.java
+│   │   │   │   │   ├── Funcionary.java
+│   │   │   │   │   ├── Student.java
+│   │   │   │   │   ├── StudentPrinter.java
+│   │   │   │   ├── tests/
+│   │   │   │   │   ├── CalculatorTest01.java
+│   │   │   │   │   ├── CalculatorTest02.java
+│   │   │   │   │   ├── CalculatorTest03.java
+│   │   │   │   │   ├── CalculatorTest04.java
+│   │   │   │   │   ├── CalculatorTest05.java
+│   │   │   │   │   ├── FunctionaryTest01.java
+│   │   │   │   │   ├── StudentTest01.java
+│   │   │   │   │   ├── StudentTest02.java
 │   │   ├── projects/                                  # Projetos de Pratica
 │   │   │   ├── tictactoe/
 │   │   │   │   ├── TicTacToe.java
